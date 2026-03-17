@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sneaker Vitrine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+  <nav>
+    <h2><a href="index.html">SneakerX</a></h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="collection.html">Collection</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+<!-- Hero -->
+  <section class="hero">
+    <h1>New Sneaker Collection</h1>
+    <p>Discover the best sneakers</p>
+    <a href="collection.html" class="shop-now-btn">Shop Now</a>
+  </section>
+
+<!-- Sneaker Cards -->
+  <section class="products">
+
+    <div class="card">
+    <a href="product.html?color=brown"><img src="./images/brown AJ1.jpg"></a>
+    <h3>Air Jordan 1 Brown</h3>
+    <p>$180</p>
+    <a href="product.html?color=brown" class="view-btn">View</a>
+    </div>
+
+    <div class="card">
+      <a href="product.html?color=green"><img src="./images/green AJ1.jpg"></a>
+      <h3>Air Jordan 1 High OG “Fir”</h3>
+      <p>$180</p>
+      <a href="product.html?color=green" class="view-btn">View</a>
+    </div>
+
+    <div class="card">
+      <a href="product.html?color=red"><img src="./images/blue AJ1.jpg"></a>
+      <h3>Air Jordan 1 High OG “Psychic Blue”</h3>
+      <p>$180</p>
+      <a href="product.html?color=red" class="view-btn">View</a>
+    </div>
+
+  </section>
+
+  <!-- Cart Icon -->
+  <div id="cart-icon">🛒<span id="cart-count">0</span></div>
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

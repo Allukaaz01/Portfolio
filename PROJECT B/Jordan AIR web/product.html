@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product - SneakerX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+  <nav>
+    <h2><a href="index.html">SneakerX</a></h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="collection.html">Collection</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Product Section -->
+  <section class="product">
+    <img id="product-image" src="images/green AJ1.jpg" alt="Jordan Air 1">
+    <h1 id="product-title">Jordan Air 1</h1>
+    <p id="product-description" class="description">
+      The Air Jordan 1 is a basketball shoe produced by Nike. 
+      It was first released in 1985 and designed by Peter Moore. 
+      The Air Jordan 1 was the first shoe to feature the Air technology, 
+      revolutionizing sneaker comfort and performance.
+    </p>
+    <p class="price">$180</p>
+    <button id="add-to-cart" class="add-to-cart-btn">Add to Cart</button>
+  </section>
+
+  <!-- Cart Icon -->
+  <div id="cart-icon">🛒<span id="cart-count">0</span></div>
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
