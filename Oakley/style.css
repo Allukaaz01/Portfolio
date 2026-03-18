@@ -41,6 +41,9 @@ a {
   text-decoration: none;
   color: #555;
 }
+a:hover{
+  color: #555555b0;
+}
 header {
   width: 100%;
   max-width: 90%;
@@ -55,8 +58,12 @@ header {
   border-radius: 25px;
   margin-top: 10px;
 }
-header .logo {
+header .logo{
   font-weight: bold;
+  color: #000;
+}
+.logo a{
+  color: #000;
 }
 header nav a{
   margin-left: 30px;
@@ -186,10 +193,9 @@ header nav a{
   font-family: Poppins;
   font-weight: 500;
   border: none;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+  border-bottom: 2px solid rgba(55, 52, 52, 0.664);
   background-color: transparent;
-  color: white;
-  padding: 5px 0;
+  padding: 3px;
   cursor: pointer;
   transition: all 0.3s ease;
   opacity: 0;
@@ -197,17 +203,23 @@ header nav a{
   transform: translateY(10px);
 }
 .arrows #back:hover{
+  color: white;
   border-bottom-color: white;
+  background-color: rgba(255, 255, 255, 0.486);
 }
 .seeMore{
   cursor: pointer;
+}
+.seeMore:hover{
+  cursor: pointer;
+  color: #7b7b7bc5;
 }
 .carousel .list .item .intro .title {
   font-size: 2em;
   line-height: 0.8em;
 }
 .carousel .list .item .intro .topic {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 500;
 }
 .carousel .list .item .intro .desc{
@@ -439,12 +451,20 @@ header nav a{
   font-weight: 500;
   cursor: pointer;
 }
+.carousel.showDetail .list .item .detail .checkout button:hover{
+  color: #6d6c6c;
+  background-color: rgba(255, 255, 255, 0.65);
+}
 .carousel.showDetail .list .item .checkout button:nth-child(2){
   background-color: #693eff;
   color: #eee;
   border: none;
   cursor: pointer;
   padding: 3px;
+}
+.carousel.showDetail .list .item .checkout button:nth-child(2):hover{
+  background-color: #683effd6;
+  color: white;
 }
 
 .carousel.showDetail .list .item:nth-child(2) .detail .title,
