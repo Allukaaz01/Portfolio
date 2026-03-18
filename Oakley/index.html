@@ -19,7 +19,7 @@
    <div class="carousel">
     <div class="list">
       <div class="item">
-        <img src="images/Sunglasses1.png" alt="s1">
+        <img src="images/Gentle Monster.png" alt="s1">
         <div class="intro">
           <div class="title">
             OAKLEY DESIGNS
@@ -28,7 +28,7 @@
             Gentle Monster
           </div>
           <div class="desc">
-            Looks calm. Hits hard. Gentle Monster balances sleek chrome aesthetics with a blazing orange lens designed to boost contrast and visibility. Understated power with a futuristic edge.          
+            Looks calm. Hits hard. Gentle Monster balances sleek transparent aesthetics with a blazing orange lens designed to boost contrast and visibility. Understated power with a futuristic edge.          
           </div>
           <button class="seeMore">
             See more &#8599
@@ -39,7 +39,7 @@
             Gentle Monster
           </div>
           <div class="desc">
-            A smooth chrome wrap frame paired with a vibrant orange lens delivers a unique balance of elegance and edge. Designed to enhance contrast and visibility while maintaining a futuristic aesthetic.          
+            A smooth transparent wrap frame paired with a vibrant orange lens delivers a unique balance of elegance and edge. Designed to enhance contrast and visibility while maintaining a futuristic aesthetic.          
           </div>
           <div class="specifications">
             <div>
@@ -52,7 +52,7 @@
             </div>
             <div>
               <p>Frame Finish</p>
-              <p>Mirror Chrome Wrap</p>
+              <p>Transparent Wrap</p>
             </div>
             <div>
               <p>Lens Width</p>
@@ -70,7 +70,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="images/Sunglasses2.png" alt="s2">
+        <img src="images/Dystopian Verge.png" alt="s2">
         <div class="intro">
           <div class="title">
             OAKLEY DESIGNS
@@ -79,7 +79,7 @@
             Dystopian Verge
           </div>
           <div class="desc">
-            Built for the edge of tomorrow. Dystopien Verge fuses cyberpunk aesthetics with high-impact performance. The mirrored chrome wrap frame cuts through glare like armor while the deep black lens locks your vision into pure focus. Designed for those who move fast and don’t ask permission.          
+            Built for the edge of tomorrow. Dystopien Verge fuses cyberpunk aesthetics with high-impact performance. The mirrored chrome wrap frame cuts through glare like armor while the fire orange lens locks your vision into pure focus. Designed for those who move fast and don’t ask permission.          
           </div>
           <button class="seeMore">
             See more &#8599
@@ -99,7 +99,7 @@
             </div>
             <div>
               <p>Lens Color</p>
-              <p>Deep Black</p>
+              <p>Fire Orange</p>
             </div>
             <div>
               <p>Frame Finish</p>
@@ -121,7 +121,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="images/Sunglasses3.png" alt="s3">
+        <img src="images/Thorn Vines.png" alt="s3">
         <div class="intro">
           <div class="title">
             OAKLEY DESIGNS
@@ -172,7 +172,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="images/Sunglasses4.png" alt="s4">
+        <img src="images/Manifesto 02.png" alt="s4">
         <div class="intro">
           <div class="title">
             OAKLEY DESIGNS
@@ -223,7 +223,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="images/Sunglasses5.png" alt="s5">
+        <img src="images/Dragon Bane.png" alt="s5">
         <div class="intro">
           <div class="title">
             OAKLEY DESIGNS
@@ -279,11 +279,11 @@
       <button id="back">Go Back &#8599</button>
       <button id="next">></button>
     </div>
-    <div class="footer">
-      <p>Rayane Lasfar 2026 — &copy </p>
-    </div>
    </div>
   
+  <div class="footer">
+    <p>&copy 2026 Oakley Designs</p>
+  </div>
 
   <!-- Contact Modal -->
   <div id="contact-modal" class="modal">
@@ -336,8 +336,52 @@
         <h3>About the Creator</h3>
         <p>This website was created by <strong>Rayane Lasfar</strong>, a passionate web developer and designer dedicated to bringing innovative digital experiences to life.</p>
         
-        <p class="copyright">© 2026 Rayane Lasfar</p>
+        <p class="copyright">&copy 2026 Oakley Designs</p>
       </div>
+    </div>
+  </div>
+
+  <!-- Floating Cart Button -->
+  <div id="cart-button" class="cart-button">
+    <span class="cart-icon">🛒</span>
+    <span id="cart-count" class="cart-count">0</span>
+  </div>
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="cart-modal">
+    <div class="cart-content">
+      <div class="cart-header">
+        <h2>Shopping Cart</h2>
+        <span class="cart-close">&times;</span>
+      </div>
+      <div id="cart-items" class="cart-items">
+        <!-- Cart items will be added here dynamically -->
+      </div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          <strong>Total: $<span id="cart-total">0.00</span></strong>
+        </div>
+        <button id="checkout-btn" class="checkout-btn">Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3D Image Viewer -->
+  <div id="image-viewer" class="image-viewer">
+    <div class="viewer-controls">
+      <button id="close-viewer" class="close-viewer">&times;</button>
+      <div class="viewer-info">
+        <h3 id="viewer-title"></h3>
+        <p id="viewer-price"></p>
+      </div>
+    </div>
+    <div class="image-container">
+      <div class="image-wrapper">
+        <img id="viewer-image" src="" alt="Product Image">
+      </div>
+    </div>
+    <div class="rotation-hint">
+      <p>Drag to rotate • Scroll to zoom</p>
     </div>
   </div>
 
