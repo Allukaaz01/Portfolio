@@ -78,3 +78,30 @@ if (contactForm) {
     contactForm.reset();
   });
 }
+
+// Info modal
+const infoLink = document.getElementById('info-link');
+const infoModal = document.getElementById('info-modal');
+const infoCloseBtn = infoModal.querySelector('.close');
+
+if (infoLink) {
+  infoLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    infoModal.style.display = 'block';
+  });
+}
+
+if (infoCloseBtn) {
+  infoCloseBtn.addEventListener('click', () => {
+    infoModal.style.display = 'none';
+  });
+}
+
+window.addEventListener('click', (event) => {
+  if (event.target == contactModal) {
+    contactModal.style.display = 'none';
+  }
+  if (event.target == infoModal) {
+    infoModal.style.display = 'none';
+  }
+});
