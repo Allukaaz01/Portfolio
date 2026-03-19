@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starbucks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <figure class="logo">
+      <img src="images/logo.png" alt="logo">
+    </figure>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Coffee</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="carousel next">
+      <div class="list">
+        <article class="item other_1">
+          <div class="main-content" 
+          style="background-color: #9c4d2f;">
+            <div class="content">
+              <h2>Caffé Latte, a timeless classic</h2>
+              <p class="price">$ 20</p>
+              <p class="desc">
+                The <span id="latte">Caffé Latte</span> stands as a timeless icon of coffee culture, embodying simplicity perfected. Crafted with a smooth shot of espresso and generously topped with steamed milk, it offers a creamy, balanced flavor profile that’s both mild and satisfying. The subtle bitterness of the coffee blends seamlessly with the natural sweetness of milk, resulting in a drink that is comforting, versatile, and effortlessly refined. Whether enjoyed in the quiet of the morning or as a midday pause, the latte delivers a consistent, warm experience that never goes out of style.
+              </p>
+              <button class="addToCart">
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <figure class="image">
+            <img src="images/Caffe latte.png" alt="">
+            <figcaption>Caffe Latte, new product !</figcaption>
+          </figure>
+        </article>
+        <article class="item active">
+          <div class="main-content" 
+          style="background-color: #f5bfaf;">
+            <div class="content">
+              <h2>Strawberry Marble Cake Latte</h2>
+              <p class="price">$ 20</p>
+              <p class="desc">
+                The <span id="straw">Strawberry Marble Cake Latte</span> blends smooth espresso with creamy steamed milk and a delicate strawberry sweetness inspired by marble cake. It offers a balanced mix of rich coffee and light fruity notes, finished with a silky foam for a refined yet playful experience.
+              </p>
+              <button class="addToCart">
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <figure class="image">
+            <img src="images/Strawberry Mocha.png" alt="">
+            <figcaption>Strawberry Mocha, new product !</figcaption>
+          </figure>
+        </article>
+        <article class="item other_2">
+          <div class="main-content" 
+          style="background-color: #9c4d2f;">
+            <div class="content">
+              <h2>Doppio Espresso, a bold expression</h2>
+              <p class="price">$ 20</p>
+              <p class="desc">
+                The <span id="doppio">Doppio Espresso</span> – A bold double shot of espresso delivering intense flavor and rich crema. Pure coffee strength with subtle chocolate undertones for a powerful, energizing experience.
+              </p>
+              <button class="addToCart">
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <figure class="image">
+            <img src="images/Dopio Espresso.png" alt="">
+            <figcaption>Doppio Espresso, new product !</figcaption>
+          </figure>
+        </article>
+        <article class="item">
+          <div class="main-content" 
+          style="background-color: #7eb63d;">
+            <div class="content">
+              <h2>Matcha Latte, a refined fusion</h2>
+              <p class="price">$ 20</p>
+              <p class="desc">
+                The <span id="matcha">Matcha Latte Macchiato</span> is a modern twist on tradition, blending the earthy richness of premium matcha with the silky smoothness of milk. Carefully layered to create a visually striking gradient, this drink offers a delicate balance between the slightly bitter, vegetal notes of green tea and the soft creaminess that rounds it out. Light, refreshing, and subtly energizing, it appeals to those who appreciate a more refined and health-conscious alternative without sacrificing flavor or style. Every sip feels clean, smooth, and quietly luxurious.
+              </p>
+              <button class="addToCart">
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <figure class="image">
+            <img src="images/Macchiato.png" alt="">
+            <figcaption>Matcha Latte, new product !</figcaption>
+          </figure>
+        </article>
+      </div>
+      <div class="arrows">
+        <button id="prev"><</button>
+        <button id="next">></button>
+      </div>
+    </section>
+  </main>
+ 
+  <script src="carousel.js"></script>
+</body>
+</html>
