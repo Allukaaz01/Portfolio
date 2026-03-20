@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soda Slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/hk.png" alt="logo">
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="">Info</a>
+      <a href="">Contact</a>
+    </nav>
+  </header>
+  <div class="carousel">
+    <div class="list">
+      <div class="item active"
+      style="
+      --img-src: url('images/grape.png');
+      --bg-color: #670afdee;
+      --title: 'Grape';
+      ">
+        <div class="content">
+          <div class="image"></div>
+          <div class="info">
+            <div class="title">
+              Grape-flavored Soda
+            </div>
+            <div class="category">
+              Fruit Soda
+            </div>
+            <div class="desc">
+              A bold burst of rich grape flavor crafted for those who crave intensity in every sip. Smooth, vibrant, and slightly tangy, it delivers a refreshing kick that lingers just enough to keep you coming back for more.
+            </div>
+            <a href="">
+              See More
+              <span>&#8594</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="item"
+      style="
+      --img-src: url('images/apple.png');
+      --bg-color: #0bd655ed;
+      --title: 'Apple';
+      ">
+        <div class="content">
+          <div class="image"></div>
+          <div class="info">
+            <div class="title">
+              Apple-flavored Soda
+            </div>
+            <div class="category">
+              Fruit Soda
+            </div>
+            <div class="desc">
+              Crisp and refreshing with a clean apple finish that feels both light and energizing. Each sip balances sweetness and sharpness perfectly, creating a smooth drink that’s easy to enjoy anytime, anywhere, without feeling too heavy.
+            </div>
+            <a href="">
+              See More
+              <span>&#8594</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="item"
+      style="
+      --img-src: url('images/red.png');
+      --bg-color: #f72a2aee;
+      --title: 'Red Fruit';
+      ">
+        <div class="content">
+          <div class="image"></div>
+          <div class="info">
+            <div class="title">
+              Red Fruit-flavored Soda
+            </div>
+            <div class="category">
+              Fruit Soda
+            </div>
+            <div class="desc">
+              A dynamic blend of red fruits that hits with a juicy, slightly sweet explosion of flavor. Bright, refreshing, and full of character, it’s designed to deliver a lively taste experience that stands out from the ordinary.
+            </div>
+            <a href="">
+              See More
+              <span>&#8594</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="arrows">
+    <button id="prev"><</button>
+    <button id="next">></button>
+  </div>
+  <ul class="dots">
+    <li class="active"></li>
+    <li></li>
+    <li></li>
+  </ul>
+  
+  <script src="app.js"></script>
+</body>
+</html>
