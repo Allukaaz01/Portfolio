@@ -1,0 +1,6 @@
+{
+  "name": "Opera Yaşam",
+  "description": "Portail clinique officiel du Dr. Hüseyin Balıkçı - Spécialiste en rhinoplastie de renom à Antalya. Réservations simplifiées, gestion hôtelière et conseil chirurgical.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
